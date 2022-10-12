@@ -51,7 +51,7 @@ body {
     background-color: #3882f6;
     border: 1px solid rgba(0, 0, 0, 0.6);
     top: 2%;
-    right:15%;   
+    right: 15%;
 }
 
 a {
@@ -119,149 +119,229 @@ a {
     }
 }
 
-/* Hero Part */
-
-.hero {
-    display: flex;
-    color: #ffffff;
-    background-color: #000000;
-    align-items: center;
-    justify-content: center;
-    padding: 90px;
-}
-
-.hero-cta {
-    flex-basis: 400px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-right: 50px;
-}
-
-.hero-cta p {
-    font-family: 'press start 2p', arial;
-    opacity: 0.7;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0;
-    font-family: 'press start 2p', arial;
-}
-
-.hero button {
-    display: block;
-    text-align: center;
-    width: 110px;
-    border: none;
-    background: #3882f6;
-    padding: 10px;
-    border-radius: 8px;
-    color: rgb(255, 255, 255);
-    font-family: 'press start 2p', arial;
+.bn541 {
+    position: absolute;
+    outline: none;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.hero-image img {
-    width: 500px;
-    height: 350px;
-}
-
-/* Content Part */
-
-.content {
+    border-radius: 50px;
+    display: inline-block;
+    justify-content: inherit;
     align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    background-color: #3882f6;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    top: 2%;
+    right: 6%;
 }
 
-.content-info {
-    display: flex;
-    /* border: 1px solid gold; */
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.content-info img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 15px;
-    margin: 20px 20px 20px 20px;
-}
-
-/* Quotation Part */
-
-.quote {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-    padding: 0 200px;
-}
-
-.quote p {
-    font-size: 36px;
-    color: black;
-    font-style: italic;
-    font-weight: lighter;
+.bn541 .bn541span {
     font-family: 'press start 2p', arial;
+    color: #5a0283;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
 }
 
-.quote b {
-    padding-bottom: 20px;
-    padding-right: 10px;
-    font-family: 'press start 2p', arial;
-    text-align: right;
+.bn541:hover {
+    animation: bn54rotate 0.7s ease-in-out both;
 }
 
-/* Sign Up Part */
-.sign-up {
-    background-color: #3882F6;
-    margin: 50px 200px;
-    padding: 10px 80px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    border-color: none;
+.bn541:hover .bn541span {
+    animation: bn54storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
 }
 
-.sign-item {
-    flex: 1;
+@keyframes bn541rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+
+    75% {
+        transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
 }
 
-.signs-text {
-    text-align: left;
+@keyframes bn541storm {
+    0% {
+        transform: translate3d(0, 0, 0) translateZ(0);
+    }
+
+    25% {
+        transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+
+    50% {
+        transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+
+    75% {
+        transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) translateZ(0);
+    }
 }
 
-.signs-text p {
-    color: #fff;
-    opacity: 0.7;
-    margin: 5px 30px 30px 50px;
-}
+    /* Hero Part */
 
-h3 {
-    color: #fff;
-    font-family: 'press start 2p', arial;
-    padding: 0;
-    margin: 30px 0px 0px 50px;
-}
+    .hero {
+        display: flex;
+        color: #ffffff;
+        background-color: #000000;
+        align-items: center;
+        justify-content: center;
+        padding: 90px;
+    }
 
-.signs-button button {
-    color: #fff;
-    font-family: 'press start 2p', arial;
-    border-color: #fff;
-    border-radius: 8px;
-    background-color: #3882F6;
-    padding: 5px 25px;
-    font-size: 15px;
-}
+    .hero-cta {
+        flex-basis: 400px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-right: 50px;
+    }
 
-/* Footer */
+    .hero-cta p {
+        font-family: 'press start 2p', arial;
+        opacity: 0.7;
+    }
 
-.footer {
-    background-color: #1F2937;
-    color: rgb(255, 255, 255);
-    font-family: 'press start 2p', arial;
-}
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0;
+        font-family: 'press start 2p', arial;
+    }
+
+    .hero button {
+        display: block;
+        text-align: center;
+        width: 110px;
+        border: none;
+        background: #3882f6;
+        padding: 10px;
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        font-family: 'press start 2p', arial;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .hero-image img {
+        width: 500px;
+        height: 350px;
+    }
+
+    /* Content Part */
+
+    .content {
+        align-items: center;
+    }
+
+    .content-info {
+        display: flex;
+        /* border: 1px solid gold; */
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content-info img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    /* Quotation Part */
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        padding: 0 200px;
+    }
+
+    .quote p {
+        font-size: 36px;
+        color: black;
+        font-style: italic;
+        font-weight: lighter;
+        font-family: 'press start 2p', arial;
+    }
+
+    .quote b {
+        padding-bottom: 20px;
+        padding-right: 10px;
+        font-family: 'press start 2p', arial;
+        text-align: right;
+    }
+
+    /* Sign Up Part */
+    .sign-up {
+        background-color: #3882F6;
+        margin: 50px 200px;
+        padding: 10px 80px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border-color: none;
+    }
+
+    .sign-item {
+        flex: 1;
+    }
+
+    .signs-text {
+        text-align: left;
+    }
+
+    .signs-text p {
+        color: #fff;
+        opacity: 0.7;
+        margin: 5px 30px 30px 50px;
+    }
+
+    h3 {
+        color: #fff;
+        font-family: 'press start 2p', arial;
+        padding: 0;
+        margin: 30px 0px 0px 50px;
+    }
+
+    .signs-button button {
+        color: #fff;
+        font-family: 'press start 2p', arial;
+        border-color: #fff;
+        border-radius: 8px;
+        background-color: #3882F6;
+        padding: 5px 25px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+
+    .footer {
+        background-color: #1F2937;
+        color: rgb(255, 255, 255);
+        font-family: 'press start 2p', arial;
+    }
