@@ -25,6 +25,7 @@ body {
     width: 84px;
     height: 84px;
     margin-right: auto;
+    border-radius: 20px;
 }
 
 .header-link {
@@ -290,11 +291,16 @@ a {
     height: 45px;
     width: 130px;
     opacity: 1;
-    background-color: #3882f6;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: #fcfcfc;
+    border: 5px solid #ffffff;
     font-family: 'press start 2p', arial;
+    color: #3882F6;
 }
 
+button {
+    background-color: #3882F6;
+    border: none;
+}
 
 
 
