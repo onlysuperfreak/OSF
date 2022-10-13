@@ -277,6 +277,28 @@ a {
     }
 }
 
+.signs-button .button {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    background-color: #3882f6;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.signs-button {
+    background-color:#3882F6;
+    display: flex;
+}
+
 
 
 /* Hero Part */
@@ -389,6 +411,7 @@ h1 {
 
 .sign-item {
     flex: 1;
+    background-color: #3882F6;
 }
 
 .signs-text {
@@ -406,23 +429,6 @@ h3 {
     font-family: 'press start 2p', arial;
     padding: 0;
     margin: 30px 0px 0px 50px;
-}
-
-.signs-button. button {
-    position: relative;
-    outline: none;
-    text-decoration: none;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    height: 45px;
-    width: 130px;
-    opacity: 1;
-    background-color: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 /* Footer */
