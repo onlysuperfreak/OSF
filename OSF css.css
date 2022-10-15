@@ -1,3 +1,5 @@
+/*Head*/
+
 body {
     background-color: #000000;
     padding: 0;
@@ -302,7 +304,14 @@ button {
     border: none;
 }
 
+/*Desktop View*/
 
+@media (min-width: 992px) {
+    
+    body {
+        float: center;
+    }
+}
 
 /* Hero Part */
 
