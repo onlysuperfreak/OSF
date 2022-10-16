@@ -8,11 +8,6 @@ body {
     font-family: 'press start 2p', arial;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 /* Navbar Part */
 
 .bx-navbar {
@@ -34,6 +29,30 @@ body {
     display: flex;
     margin-left: auto;
     padding: 0px 100px 0px 0px;
+}
+
+/*Large screens*/
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+/*Medium Screens*/
+
+@media all and (max-width: 800px) {
+    .flex-container {
+        justify-content: space-around;
+    }
+}
+
+/*Small screens*/
+
+@media all and (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
 
 /*BUTTONS*/
@@ -307,7 +326,7 @@ button {
 /*Desktop View*/
 
 @media (min-width: 992px) {
-    
+
     body {
         float: center;
     }
