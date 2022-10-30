@@ -13,7 +13,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'press start 2p', arial;
+    font-family: "press start 2p", arial;
 }
 
 /*Jumbotron*/
@@ -43,7 +43,7 @@ p {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    background: url('ezgif.com-gif-maker.gif') no-repeat center center;
+    background: url("ezgif.com-gif-maker.gif") no-repeat center center;
     background-size: cover;
 }
 
@@ -58,9 +58,6 @@ p {
         padding-bottom: 20px;
     }
 }
-
-
-
 
 /*BUTTONS*/
 
@@ -85,7 +82,7 @@ a {
 }
 
 .bn54 .bn54span {
-    font-family: 'press start 2p', arial;
+    font-family: "press start 2p", arial;
     color: #5a0283;
     font-size: 12px;
     font-weight: 500;
@@ -144,7 +141,6 @@ a {
         transform: translate3d(0, 0, 0) translateZ(0);
     }
 }
-
 
 @keyframes bn541rotate {
     0% {
@@ -208,7 +204,7 @@ a {
 }
 
 .button .buttonspan {
-    font-family: 'press start 2p', arial;
+    font-family: "press start 2p", arial;
     color: #5a0283;
     font-size: 12px;
     font-weight: 500;
@@ -283,11 +279,34 @@ a {
     opacity: 1;
     background-color: #fcfcfc;
     border: 5px solid #ffffff;
-    font-family: 'press start 2p', arial;
-    color: #3882F6;
+    font-family: "press start 2p", arial;
+    color: #3882f6;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #3882f6;
     border: none;
 }
+
+/* Content Part */
+
+.content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 20px 20px 20px 20px;
+}
+
