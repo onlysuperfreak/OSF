@@ -48,7 +48,7 @@ p {
 }
 
 .jumbotron .container {
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
@@ -58,6 +58,33 @@ p {
         padding-bottom: 20px;
     }
 }
+
+.jumbo-2 {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-size: cover;
+    background-color: #000000 !important;
+}
+
+.jumbo-2 p {
+    margin-top: 0;
+    color: #3882f6;
+}
+
+.jumbo-2 h1 {
+    margin-top: 0;
+    color: #5a0283;
+}
+
+.jumbo-2 .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
 
 /*BUTTONS*/
 
@@ -287,6 +314,3 @@ button {
     background-color: #3882f6;
     border: none;
 }
-
-
-
