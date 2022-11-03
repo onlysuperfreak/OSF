@@ -312,3 +312,24 @@ button {
     border: none;
 }
 
+/*footer links*/
+
+.socials {
+    background-color:#000000
+}
+
+.twitter{
+    background-color:#55acee;
+}
+
+.instagram {
+    background-color: #ac2bac;
+}
+
+.linkedin {
+    background-color: #0082ca;
+}
+
+.github {
+    background-color: #333333;
+}
