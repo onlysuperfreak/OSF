@@ -16,6 +16,18 @@ body {
     font-family: "press start 2p", arial;
 }
 
+/*Navigation Bar*/
+
+.navbar {
+    --bs-navbar-color: #3882f6;
+    --bs-navbar-active-color: #3882f6;
+}
+
+.navbar-dark {
+    --bs-navbar-hover-color: rgb(81 10 131 / 90%);
+}
+
+
 /*Jumbotron*/
 
 .jumbotron-billboard .img {
@@ -315,11 +327,11 @@ button {
 /*footer links*/
 
 .socials {
-    background-color:#000000
+    background-color: #000000
 }
 
-.twitter{
-    background-color:#55acee;
+.twitter {
+    background-color: #55acee;
 }
 
 .instagram {
